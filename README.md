@@ -1,4 +1,4 @@
-# extendeddialog
+# Extended Dialog Feature
 
 A flutter package for dialog box with extended features.
 
