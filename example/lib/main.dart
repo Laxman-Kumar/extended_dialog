@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:extended_dialog/extendeddialog.dart';
+import 'package:extended_dialog/extended_dialog.dart';
 void main() {
   runApp(MyApp());
 }
@@ -57,19 +57,18 @@ class _MyHomePageState extends State<MyHomePage> {
           PopupMenuItemExtended(
              child: Row(children: <Widget>[
             Expanded(flex: 5, child: Text("Settings",style: TextStyle (color:Color(0xFFA86E52) ),),)],),),
-          PopupMenuDivider1(height: 10),
+          PopupMenuDividerExtended(height: 10),
           PopupMenuItemExtended(
             child: Row(children: <Widget>[
               Expanded(flex: 5, child: Text("Settings",style: TextStyle (color:Color(0xFFA86E52) ),),)],),),
-          PopupMenuDivider1(height: 10),
+          PopupMenuDividerExtended(height: 10),
           PopupMenuItemExtended(
             child: Row(children: <Widget>[
               Expanded(flex: 5, child: Text("Settings",style: TextStyle (color:Color(0xFFA86E52) ),),)],),),
-          PopupMenuDivider1(height: 10),
+          PopupMenuDividerExtended(height: 10),
           PopupMenuItemExtended(
             child: Row(children: <Widget>[
               Expanded(flex: 5, child: Text("Settings",style: TextStyle (color:Color(0xFFA86E52) ),),)],),),
-          PopupMenuDivider1(height: 10),
         ]);
     return SettingMenu1;
 

@@ -9,8 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-class PopupMenuDivider1 extends PopupMenuEntry<Null> {
-  const PopupMenuDivider1({
+class PopupMenuDividerExtended extends PopupMenuEntry<Null> {
+  const PopupMenuDividerExtended({
     Key key,
     this.height = 0,
     this.color,
@@ -28,9 +28,9 @@ class PopupMenuDivider1 extends PopupMenuEntry<Null> {
   @override
   bool represents(void value) => false;
   @override
-  _PopupMenuDividerState createState() => _PopupMenuDividerState();
+  _PopupMenuDividerExtendedState createState() => _PopupMenuDividerExtendedState();
 }
-class _PopupMenuDividerState extends State<PopupMenuDivider1> {
+class _PopupMenuDividerExtendedState extends State<PopupMenuDividerExtended> {
   @override
   Widget build(BuildContext context) =>
       Divider(height: widget.height,
